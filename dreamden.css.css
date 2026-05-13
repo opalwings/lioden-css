@@ -1,0 +1,81 @@
+/* ===== BACKGROUND ===== */
+
+body {
+    background: url('YOUR_IMAGE_LINK') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Georgia, serif;
+    color: #f4f4f4;
+}
+
+/* ===== MAIN PANELS ===== */
+
+.container,
+.boxcontainer,
+.feature,
+.table,
+.panel,
+.content,
+.sidebar {
+    background: rgba(10, 10, 10, 0.55) !important;
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.15);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+/* ===== HEADERS ===== */
+
+h1, h2, h3, h4 {
+    color: #ffffff !important;
+    text-shadow: 0 0 8px rgba(255,255,255,0.5);
+}
+
+/* ===== LINKS ===== */
+
+a {
+    color: #d6e7ff !important;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: white !important;
+    text-shadow: 0 0 6px white;
+}
+
+/* ===== NAVIGATION BAR ===== */
+
+.navbar,
+.topbar {
+    background: rgba(0,0,0,0.65) !important;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+/* ===== INPUTS ===== */
+
+input,
+textarea {
+    background: rgba(255,255,255,0.1) !important;
+    color: white !important;
+    border: 1px solid rgba(255,255,255,0.2) !important;
+}
+
+/* ===== BUTTONS ===== */
+
+button,
+.btn {
+    background: rgba(255,255,255,0.15) !important;
+    color: white !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(255,255,255,0.2) !important;
+}
+
+button:hover,
+.btn:hover {
+    background: rgba(255,255,255,0.25) !important;
+}
+
+/* ===== REMOVE UGLY SHADOWS ===== */
+
+div {
+    box-shadow: none !important;
+}
