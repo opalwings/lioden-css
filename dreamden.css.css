@@ -1,3 +1,9 @@
+
+    background: rgba(255,255,255,0.15) !important;
+    color: white !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(255,255,255,0.2) !important;
+}
 /* ===== BACKGROUND ===== */
 
 body {
@@ -63,12 +69,6 @@ textarea {
 
 button,
 .btn {
-    background: rgba(255,255,255,0.15) !important;
-    color: white !important;
-    border-radius: 10px !important;
-    border: 1px solid rgba(255,255,255,0.2) !important;
-}
-
 button:hover,
 .btn:hover {
     background: rgba(255,255,255,0.25) !important;
@@ -78,4 +78,17 @@ button:hover,
 
 div {
     box-shadow: none !important;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 200px;
+  font-size: 60px;
+  color: hotpink;
 }
